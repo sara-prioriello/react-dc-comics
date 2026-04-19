@@ -1,9 +1,11 @@
 import AppLogo from '../../img/dc-logo.png'
 export default function Header() {
     return (
-        <header>
+        <header className='container'>
+            <div>
+                <img src={AppLogo} alt="" />
+            </div>
 
-            <img src={AppLogo} alt="" />
 
             <nav>
                 <a href="">CHARACTERS</a>
