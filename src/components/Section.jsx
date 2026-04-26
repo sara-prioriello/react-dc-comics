@@ -1,6 +1,6 @@
 export default function Section() {
     return (
-        <section className="container">
+        <section>
             <div className="container-card">
                 <div className="card">
                     <img src="../img/buy-comics-digital-comics.png" alt="" />

@@ -1,5 +1,7 @@
 import AppLogo from '../../img/dc-logo.png'
 export default function Header() {
+
+    const menu = ["C", "COMICS"]
     return (
         <header className='container'>
             <div>
