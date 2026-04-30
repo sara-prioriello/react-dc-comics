@@ -161,10 +161,10 @@ export default function Main() {
     //export default comics
     return (<main>
 
-        <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-                <img src="../../img/jumbotron.jpg" alt="" />
-                <button class="btn btn-primary btn-lg" type="button">
+        <div className="div-jumbo p-5 mb-4 bg-light">
+            <div className="container-fluid py-5">
+                <img className="jumbo" src="../../img/jumbotron.jpg" alt="" />
+                <button className="btn btn-primary btn-lg" type="button">
                     Current series
                 </button>
             </div>

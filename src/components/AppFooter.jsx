@@ -8,9 +8,10 @@ import PerLogo from '../../img/footer-periscope.png'
 export default function Footer() {
     return (
         <footer>
-            <div className='container'>
-                <div className="row">
-                    <div className='col-6'>
+            <div className='container-footer row'>
+
+                <div className="col-4 row">
+                    <div className='col-3'>
                         <ul className=''>
                             <h3 className='listTitle'>DC COMICS</h3>
                             <li>Characters</li>
@@ -27,7 +28,7 @@ export default function Footer() {
                             <li>Shop DC Collectibles</li>
                         </ul>
                     </div>
-                    <div className="col-6">
+                    <div className="col-3">
                         <ul className=''>
                             <h3 className='listTitle'>DC</h3>
                             <li>Terms of Use</li>
@@ -43,7 +44,7 @@ export default function Footer() {
                             <li>Contact Us</li>
                         </ul>
                     </div>
-                    <div className="col-6">
+                    <div className="col-3">
 
                         <ul className='col'>
                             <h3 className='listTitle'>SITES</h3>
@@ -54,22 +55,23 @@ export default function Footer() {
                             <li>DC Power Visa</li>
                         </ul>
                     </div>
-                    <div className='col-2'>
-                        <img src={FooterLogo} alt="" />
-                    </div>
-
-
-
                 </div>
+
+                <div className="col-8">
+                    <img src="../../img/dc-logo-bg.png" alt="" />
+                </div>
+
+
+
             </div>
 
             <div className="section2">
 
-                <div className='col'>
+                <div className=''>
                     <button>SIGN-UP NOW!</button>
 
                 </div>
-                <div className='col'>
+                <div className=''>
                     <div>FOLLOW US</div>
                     <a href=""><img src={FBLogo} alt="" /></a>
                     <a href=""><img src={TWLogo} alt="" /></a>
