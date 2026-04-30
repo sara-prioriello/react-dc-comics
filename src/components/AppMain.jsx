@@ -1,4 +1,6 @@
 import Section from "./Section"
+import CardItem from "./CardItem";
+
 
 
 export default function Main() {
@@ -173,14 +175,8 @@ export default function Main() {
         <div className="top">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                 {comics.map((item) => (
-                    <div className="col" key={item.id}>
-                        <div className="card h-20 w-5">
-                            <img src={item.thumb} alt={item.series} className="card-img-top" style={{ height: "200px", objectFit: "cover" }} />
-                            <div className="card-body">
-                                <h3 className="title">{item.series}</h3>
-                            </div>
-                        </div>
-                    </div>
+                    // <CardItem key={item.id} src={item.thumb} series={item.series} />
+                    <CardItem key={item.id} item={item} />
                 ))
                 }
 

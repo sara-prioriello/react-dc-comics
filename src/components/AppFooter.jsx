@@ -11,7 +11,7 @@ export default function Footer() {
             <div className='container-footer row'>
 
                 <div className="col-4 row">
-                    <div className='col-3'>
+                    <div className='col-4'>
                         <ul className=''>
                             <h3 className='listTitle'>DC COMICS</h3>
                             <li>Characters</li>
@@ -28,7 +28,7 @@ export default function Footer() {
                             <li>Shop DC Collectibles</li>
                         </ul>
                     </div>
-                    <div className="col-3">
+                    <div className="col-4">
                         <ul className=''>
                             <h3 className='listTitle'>DC</h3>
                             <li>Terms of Use</li>
@@ -44,7 +44,7 @@ export default function Footer() {
                             <li>Contact Us</li>
                         </ul>
                     </div>
-                    <div className="col-3">
+                    <div className="col-4">
 
                         <ul className='col'>
                             <h3 className='listTitle'>SITES</h3>
